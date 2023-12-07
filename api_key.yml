@@ -1,0 +1,26 @@
+apiKey = "6760580642a9043289e9d1add81812ad"
+to fetch data using Axios
+
+to fetch generes : https://api.themoviedb.org/3/genre/movie/list?api_key=6760580642a9043289e9d1add81812ad
+
+1) now_playing
+  url: 'https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1',
+2)trending
+  url: 'https://api.themoviedb.org/3/trending/movie/week?language=en-US&api_key=6760580642a9043289e9d1add81812ad',
+    url: 'https://api.themoviedb.org/3/trending/movie/week?language=en-US',
+    https://api.themoviedb.org/3/trending/movie/week?language=en-US&api_key=6760580642a9043289e9d1add81812ad
+
+3) Top Rated
+  url: 'https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1',
+  https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1&api_key=6760580642a9043289e9d1add81812ad
+
+  4) Action movies
+  https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&with_genres=28&api_key=6760580642a9043289e9d1add81812ad
+  
+  5)NetflixOriginal
+  https://api.themoviedb.org/3/discover/tv?api_key=###&with_networks=213
+
+  https://api.themoviedb.org/3/discover/tv?include_adult=false&include_null_first_air_dates=false&language=en-US&page=1&sort_by=popularity.desc&with_networks=213,
+
+
+
